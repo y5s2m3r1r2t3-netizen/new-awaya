@@ -283,7 +283,7 @@ section {
 
 footer {
   text-align: center;
-  padding: 56px 20px 32px;
+  padding: 48px 20px;
   background: #f8dce8;
   font-size: 14px;
 }
@@ -291,48 +291,10 @@ footer-tagline {
   font-size: 20px;
   font-weight: 900;
   color: #d96f9f;
-  margin: 0 0 28px;
+  margin: 0 0 12px;
   letter-spacing: 0.04em;
 }
 
-.footer-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 28px;
-}
-
-.footer-nav a {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 999px;
-  background: #fff;
-  color: #d96f9f;
-  font-weight: bold;
-  font-size: 13px;
-  text-decoration: none;
-  border: 2px solid #f3b8cf;
-  transition: transform 0.15s ease, background 0.15s ease;
-}
-
-.footer-nav a:hover {
-  background: #ffe6ef;
-  transform: translateY(-2px);
-}
-
-.to-top {
-  display: inline-block;
-  margin-bottom: 28px;
-  color: #92b38a;
-  font-weight: bold;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.to-top:hover {
-  text-decoration: underline;
-}
 
 .copyright {
  margin: 0;
